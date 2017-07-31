@@ -1,23 +1,25 @@
 {
   "name": "requestHeaderParser",
   "version": "1.0.0",
-  "description": "",
+  "description": "request Header Parser Microservice API",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/the-dsw/requestHeaderParser.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mauricio Oporto",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/the-dsw/requestHeaderParser/issues"
   },
   "homepage": "https://github.com/the-dsw/requestHeaderParser#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "express-useragent": "^1.0.7"
   }
 }
